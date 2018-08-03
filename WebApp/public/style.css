@@ -1,0 +1,18 @@
+
+body *{ /* reference: https://stackoverflow.com/questions/10750582/global-override-of-mouse-cursor-with-javascript */
+    cursor: default;
+}
+
+#background {  
+  height:800px;
+  width:600px;
+  text-align:center;
+  font-size:80px;
+};
+
+#goal_field_area {
+}
+
+::-webkit-input-placeholder { /*# only guaranteed to work in the latest version of chrome */
+color: #757575 !important;
+};
